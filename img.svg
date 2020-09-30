@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+<path fill="#fff" d="M-1-1h802v602H-1z"/>
+<g>
+<ellipse ry="20" rx="75" cy="436" cx="233" fill="#d3d3d3"/>
+<circle cy="317" cx="233" fill="#fea500" r="120"/>
+<ellipse ry="10" rx="20" cy="372" cx="229" fill="#d91442"/>
+<circle cy="283" cx="220" fill="#fff" r="50"/>
+<circle cy="283" cx="275" fill="#fff" r="50"/>
+<circle cy="335" cx="249.5" r="15"/>
+<circle cy="281" cx="221.5" r="10"/>
+<circle cy="281" cx="281.5" r="10"/>
+<polygon points="150,230 155,190 210,210" fill="#fea500"></polygon>
+<polygon points="155,225 157,195 185,205" fill="black"></polygon>
+<polygon points="259,210 300,180 310,230" fill="#fea500"></polygon>
+<polygon points="277,202 295,190 305,220" fill="black"></polygon>
+<ellipse transform="rotate(15 77 329)" ry="25" rx="64" cy="329" cx="77" fill="#fea500"/>
+<polygon points="50,340 20,315 60,310" fill="white"></polygon>
+<ellipse ry="20" rx="75" cy="434" cx="574" fill="#d3d3d3"/>
+<circle cy="315" cx="574" fill="#fed700" r="120"/>
+<ellipse ry="20" rx="10" cy="373" cx="556" fill="#d91442"/>
+<circle cy="282" cx="529" fill="#fff" r="50"/>
+<circle cy="281" cx="584" fill="#fff" r="50"/>
+<circle cy="280" cx="511" r="10"/>
+<circle cy="280" cx="579" r="10"/>
+</g>
+</svg>
+
+
+
+
+
+    

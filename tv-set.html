@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 3% 0;
+            text-align: center;
+        }
+
+        text {
+            font-size: 40px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <svg height=600 width=550>
+        <path id="test-path" fill="none" stroke="cyan" stroke-width="2" 
+        d="M3.858,58.607 c16.784-5.985,33.921-10.518,51.695-12.99c50.522-7.028,101.982,0.51,151.892,8.283c17.83,2.777,
+        35.632,5.711,53.437,8.628 c51.69,8.469,103.241,11.438,155.3,3.794c53.714-7.887,106.383-20.968,159.374-32.228c11.166-2.373,27.644-7.155,39.231-4.449" />
+        <text x=0 y=0 fill=none stroke=red stroke-width="1.5">
+            <textPath xlink:href="#test-path" startOffset="30">
+                Здесь интересный заголовок
+            </textPath>
+        </text>
+        <rect width="15" height="40" fill="black" rx="5" ry="5" x="84" y="470"></rect>
+        <rect width="15" height="40" fill="black" rx="5" ry="5" x="454" y="470"></rect>
+        <rect width="520" height="360" fill="#696969" rx="50" ry="50" x="14" y="120"></rect>
+        <rect width="430" height="320" fill="#87ceea" rx="50" ry="50" x="34" y="140"></rect>
+        <rect width="50" height="90" fill="black" rx="10" ry="10" x="474" y="180"></rect>
+        <rect width="30" height="15" fill="red" rx="5" ry="5" x="484" y="190"></rect>
+        <rect width="30" height="15" fill="#ffd600" rx="5" ry="5" x="484" y="215"></rect>
+        <rect width="30" height="15" fill="#00ff06" rx="5" ry="5" x="484" y="240"></rect>
+        <circle r="15" cx="499" cy="410" fill="black"></circle>
+        <circle r="100" cx="245" cy="300" fill="red"></circle>
+        <circle r="70" cx="245" cy="300" fill="none" stroke="white" stroke-width="20"></circle>
+        <circle r="30" cx="245" cy="300" fill="none" stroke="white" stroke-width="20"></circle>
+    </svg>
+ 
+</body>
+</html>
