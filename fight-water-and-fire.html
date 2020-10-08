@@ -7,39 +7,36 @@
     <style>
         body {
             text-align: center;
-            font: normal 200px sans-serif;
+            font: normal 300px sans-serif;
             background-color: #333333;
-        }
-
-        .water {
-            fill: url(#pattern-1);
         }
 
         .vs {
             font-size: 120px;
         }
 
-        .fire {
-            fill: url(#pattern-2);
+        svg {
+            width: 700px;
+            height: 700px;
         }
 
     </style>
 </head>
 <body>
-    <svg width=700 height=700>
-        <text x=125 y=150 fill=none stroke=rgba(0,0,0,0.5) stroke-width="7" class="water">Вода</text>
+    <svg viewBox="0 0 1000 500">
+        <text x="140" y="100" fill="white" stroke=rgba(0,0,0,0.5) stroke-width="10">Вода</text>
+        <mask id="Water"> 
+            <text x="140" y="100" fill="white" stroke=rgba(0,0,0,0.5) stroke-width="10">Вода</text>
+        </mask>
+        <image xlink:href="https://i.gifer.com/UCdE.gif" width="1000" height="500" mask="url(#Water)" y="-150"/> 
 
-        <text x=275 y=300 fill=none stroke=#999999 stroke-width="5" class="vs">VS</text>
+        <text x=400 y=300 fill=none stroke=#999999 stroke-width="5" class="vs">VS</text>
 
-        <text x=80 y=450 fill=none stroke=rgba(0,0,0,0.5) stroke-width="7" class="fire">Огонь</text>
-
-        <pattern id="pattern-1" patternUnits="userSpaceOnUse" width="200" height="300" viewbox="0 50 200 300">
-            <image xlink:href="https://i.gifer.com/UCdE.gif" width="300" height="300"/>
-        </pattern>
-
-        <pattern id="pattern-2" patternUnits="userSpaceOnUse" width="200" height="300" viewBox="0 50 200 300" x="30">
-            <image xlink:href="https://i.gifer.com/KDOy.gif" width="200" height="300" x="0" y="50"></image>
-        </pattern>
+        <text x="100" y="550" fill="white" stroke=rgba(0,0,0,0.5) stroke-width="10">Огонь</text>
+        <mask id="Fire"> 
+            <text x="100" y="550" fill="white" stroke=rgba(0,0,0,0.5) stroke-width="10">Огонь</text>
+        </mask>
+        <image xlink:href="https://i.gifer.com/KDOy.gif" width="1000" height="1400" mask="url(#Fire)" y="150"/> 
     </svg>
 </body>
 </html>
