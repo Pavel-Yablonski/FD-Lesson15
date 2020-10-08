@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            font: normal 200px sans-serif;
+            background-color: #333333;
+        }
+
+        .water {
+            fill: url(#pattern-1);
+        }
+
+        .vs {
+            font-size: 120px;
+        }
+
+        .fire {
+            fill: url(#pattern-2);
+        }
+
+    </style>
+</head>
+<body>
+    <svg width=700 height=700>
+        <text x=125 y=150 fill=none stroke=rgba(0,0,0,0.5) stroke-width="7" class="water">Вода</text>
+
+        <text x=275 y=300 fill=none stroke=#999999 stroke-width="5" class="vs">VS</text>
+
+        <text x=80 y=450 fill=none stroke=rgba(0,0,0,0.5) stroke-width="7" class="fire">Огонь</text>
+
+        <pattern id="pattern-1" patternUnits="userSpaceOnUse" width="200" height="300" viewbox="0 50 200 300">
+            <image xlink:href="https://i.gifer.com/UCdE.gif" width="300" height="300"/>
+        </pattern>
+
+        <pattern id="pattern-2" patternUnits="userSpaceOnUse" width="200" height="300" viewBox="0 50 200 300" x="30">
+            <image xlink:href="https://i.gifer.com/KDOy.gif" width="200" height="300" x="0" y="50"></image>
+        </pattern>
+    </svg>
+</body>
+</html>
